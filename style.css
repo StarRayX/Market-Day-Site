@@ -3,10 +3,35 @@ body, html {
     margin: 0px auto;
 }
 body {
-    box-shadow: inset 0 0 1000px rgb(26, 26, 26);
+    
     background: #cbb661;
     overflow-x: hidden;
 }
+section {
+    min-height: 100vh;
+}
+
+#vignette {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: inset 0 0 1000px rgb(26, 26, 26);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #242526;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbb661;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #96843f;
+}
+
 .bg-wrapper {
     display: block;
     width: 100%;
@@ -96,6 +121,10 @@ body {
 
 .section {
     min-height: 100vh;
+}
+
+.contentsection {
+    background-color: #242526;
 }
 
 @font-face {
