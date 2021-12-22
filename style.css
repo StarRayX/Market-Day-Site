@@ -57,9 +57,8 @@ section {
 .jack {
     position: relative;
     top: 7vh;
-    left: 16.5vw;
-    width: 50%;
-    height: 50%;
+    left: 30vw;
+    width: 35vw;
     margin: 0px auto;
 }
 .iframe {
