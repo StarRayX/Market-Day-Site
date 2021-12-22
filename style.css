@@ -83,7 +83,7 @@ section {
 .title {
     position: absolute;
     font-family: "Carnival Freakshow";
-    font-size: 200px;
+    font-size: 10vw;
     top: 60vh;
     left: -5vh;
     margin: 0 auto;
