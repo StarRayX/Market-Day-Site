@@ -85,37 +85,34 @@ section {
     font-family: "Carnival Freakshow";
     font-size: 200px;
     top: 60vh;
+    left: -5vh;
     margin: 0 auto;
     width: 100vw;
 }
 
 #jackstone1 {
     position: relative;
-    width: 25%;
-    height: 25%;
+    width: 25vw;
     margin-top: 45vh;
     margin-left: 70vw;
 }
 #jackstone2 {
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 25vw;
     margin-top: 5vh;
-    margin-left: -15vw;
+    margin-left: 5vw;
 }
 #jackstone3 {
     position: relative;
-    width: 15%;
-    height: 15%;
-    margin-top: 25vh;
-    margin-left: 40vw;
+    width: 15vw;
+    margin-top: 55vh;
+    margin-left: 15vw;
 }
 #jackstone4 {
     position: relative;
-    width: 30%;
-    height: 30%;
-    margin-top: 55vh;
-    margin-left: -10vw;
+    width: 15vw;
+    margin-top: 20vh;
+    margin-left: 65vw;
 }
 
 .section {
