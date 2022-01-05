@@ -15,6 +15,14 @@ section {
     overflow-x: hidden;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+}
+
+p {
+    font-family: 'Neuton', serif;
+}
 #vignette {
     position: fixed;
     width: 100vw;
@@ -161,12 +169,9 @@ section {
     overflow: hidden;
 
     /* The image used */
-    background-image: url("media/goals.png");
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100vh;
+    min-height: 400px;
+
+    background: transparent;
 }
 
 .vision {
@@ -216,7 +221,8 @@ section {
 
 .swiper-wrapper {
     width: 65vh !important;
-    
+    z-index: 2 !important;
+    background: transparent;
 }
 
 .swiper-3d .swiper-cube-shadow, .swiper-3d .swiper-slide, .swiper-3d .swiper-slide-shadow, .swiper-3d .swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top, .swiper-3d .swiper-wrapper {
@@ -240,10 +246,10 @@ section {
     font-size: 5vh;
 }
 
-.swiper-slide p {
+.swiper-slide h1 {
     transition: 0.4s;
 }
-.swiper-slide:hover p {
+.swiper-slide:hover h1 {
     transform: translateY(-7vh);
 }
 
@@ -259,6 +265,7 @@ section {
     top: 40vh;
     transition: 0.4s;
     font-size: 4vh;
+    font-family: 'Neuton', serif;
 }
 .swiper-slide:hover .idg {
     transform: translateY(-20vh);
@@ -268,6 +275,10 @@ section {
     font-family: "Carnival Freakshow";
     src: url("CarnivaleeFreakshow-DLrm.ttf");
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@400;700&display=swap');
 
 @keyframes rotate {
     0%   {transform: rotate(0deg);}
